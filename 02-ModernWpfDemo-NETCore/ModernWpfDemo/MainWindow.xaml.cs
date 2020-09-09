@@ -18,8 +18,6 @@ namespace ModernWpfDemo
             string latitude = pos.Coordinate.Point.Position.Latitude.ToString();
             LongBlock.Text = longitude;
             LatBlock.Text = latitude;
-
-            //await TheMap.TrySetViewAsync(pos.Coordinate.Point, 15.0);
         }
     }
 }

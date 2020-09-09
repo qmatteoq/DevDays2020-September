@@ -24,6 +24,6 @@
             <TextBlock x:Name="LatBlock" FontSize="18" Margin="10"/>
         </StackPanel>
         <Button Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Content="Find Me!" FontSize="18" Margin="5" Click="Button_Click"/>
-        <!--<controls:MapControl TrafficFlowVisible="True" x:Name="TheMap" Grid.Column="2" />-->
+        <!--<xamlhost:WindowsXamlHost InitialTypeName="Windows.UI.Xaml.Controls.ProgressRing" Grid.Column="2" ChildChanged="WindowsXamlHost_ChildChanged" />-->
     </Grid>
 </Window>
