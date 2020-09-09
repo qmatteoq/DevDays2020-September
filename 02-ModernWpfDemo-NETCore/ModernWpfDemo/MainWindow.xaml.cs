@@ -19,7 +19,7 @@ namespace ModernWpfDemo
             LongBlock.Text = longitude;
             LatBlock.Text = latitude;
 
-            await TheMap.TrySetViewAsync(pos.Coordinate.Point, 15.0);
+            //await TheMap.TrySetViewAsync(pos.Coordinate.Point, 15.0);
         }
     }
 }
