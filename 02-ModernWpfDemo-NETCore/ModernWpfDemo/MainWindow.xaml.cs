@@ -19,5 +19,14 @@ namespace ModernWpfDemo
             LongBlock.Text = longitude;
             LatBlock.Text = latitude;
         }
+
+        //private void WindowsXamlHost_ChildChanged(object sender, EventArgs e)
+        //{
+        //    if (sender is WindowsXamlHost xamlHost && xamlHost.Child is ProgressRing ring)
+        //    {
+        //        progressRing = ring;
+        //        progressRing.Width = 150;
+        //    }
+        //}
     }
 }
