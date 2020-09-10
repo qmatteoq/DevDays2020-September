@@ -1,10 +1,13 @@
 ﻿using System;
 using Windows.Devices.Geolocation;
+using Windows.UI.Xaml.Controls;
 
 namespace ModernWpfDemo
 {
     public partial class MainWindow
     {
+        private ProgressRing progressRing;
+
         public MainWindow()
         {
             InitializeComponent();
